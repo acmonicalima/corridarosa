@@ -106,7 +106,7 @@ function moveObstacles() {
       car.y < obstacle.y + obstacle.height &&
       car.y + car.height > obstacle.y
     ) {
-      gameOver("Você colidiu com um obstáculo! " + getRandomMessage());
+      gameOver(getRandomMessage());
     }
   });
 
